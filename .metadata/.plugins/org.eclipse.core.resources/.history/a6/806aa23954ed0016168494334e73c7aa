@@ -1,0 +1,31 @@
+package dangzehao;
+
+public class Yushu{
+
+public void cal(){
+
+	int x =0 ;
+	
+	for(x=0;x<=1000;x++)
+	{
+	int a =x%2;
+	int b =x%3;
+	int c =x%4;
+	int d =x%5;
+	int e =x%6;
+	int f =x%7;
+	int g =x%8;
+	int h =x%9;
+			
+		if(a==1&b==0&c==1&d==4&e==3&f==0&g==1&h==0)
+		{
+			System.out.println(x);
+		}
+//		else {
+//			
+//			System.out.println("无解");
+//		}
+	}
+}
+}
+

@@ -1,0 +1,21 @@
+package dangzehao;
+
+public class Yushu{
+
+public void cal(){
+
+	int x =0 ;
+	
+	for(x=0;x<=1000;x++)
+	{
+	int v = x%2;
+		if(v==1)
+		{
+			System.out.println(x+"/n");
+			
+		}
+	
+	}
+}
+}
+
